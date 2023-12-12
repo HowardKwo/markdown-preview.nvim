@@ -7,9 +7,9 @@
     --color-text-primary: #333;
     --color-text-tertiary: #777;
     --color-text-link: #4078c0;
-    --color-bg-primary: #fff;
+    --color-bg-primary: #f2dcb1;
     --color-bg-secondary: #fafbfc;
-    --color-bg-tertiary: #f8f8f8;
+    --color-bg-tertiary: #c1e2c6;
     --color-border-primary: #ddd;
     --color-border-secondary: #eaecef;
     --color-border-tertiary: #d1d5da;
@@ -120,22 +120,27 @@
   font-size: 2.25em;
   line-height: 1.2;
   border-bottom: 1px solid var(--color-border-secondary);
+	color: #7AA36F;
 }
 .markdown-body h2 {
   padding-bottom: 0.3em;
   font-size: 1.75em;
   line-height: 1.225;
+	color: #FE8019;
   border-bottom: 1px solid var(--color-border-secondary);
 }
 .markdown-body h3 {
   font-size: 1.5em;
   line-height: 1.43;
+	color: #E5C07B;
 }
 .markdown-body h4 {
   font-size: 1.25em;
+	color: #D54E53;
 }
 .markdown-body h5 {
   font-size: 1em;
+	color: #C678DD;
 }
 .markdown-body h6 {
   font-size: 1em;
@@ -229,9 +234,11 @@
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: var(--color-bg-tertiary);
+  /* background-color: var(--color-bg-tertiary); */
+  background-color: white;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 10px;
+  border: 2px solid #A04040;
 }
 .markdown-body pre code {
   display: inline;
@@ -253,15 +260,18 @@
   content: normal;
 }
 .markdown-body code {
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Maple Mono NF", "仓耳今楷04", Monaco, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+	font-weight: blod;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   margin: 0;
   font-size: 85%;
-  background-color: var(--color-markdown-code-bg);
+	color: #178c4b;
+	background-color: #333;
   -webkit-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 5px;
+	border: 2px solid white;
 }
 .markdown-body code:before,
 .markdown-body code:after {
@@ -276,6 +286,8 @@
 .markdown-body img {
   max-width: 100%;
   max-height: 100%;
+  box-shadow: 0 2px 12px 0 rgb(0 0 0 / 50%);
+  border-radius: 12px;
 }
 .markdown-body strong {
   font-weight: bold;
@@ -309,3 +321,5 @@
   box-sizing: border-box;
   padding: 0;
 }
+
+

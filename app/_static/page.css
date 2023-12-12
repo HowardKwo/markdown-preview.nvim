@@ -10,7 +10,7 @@ html,body,#__next,main {
 }
 
 body {
-  --secondary-background-color: #f6f8fa;
+  --secondary-background-color: #be8f3c;
 }
 
 [data-theme="dark"] {
@@ -74,3 +74,4 @@ main {
   font-size: 14px;
   font-weight: 600;
 }
+
